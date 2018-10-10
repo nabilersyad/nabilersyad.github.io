@@ -1,0 +1,19 @@
+p{
+  /*  this is how to comment in CSS */
+  color: red;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+ol{
+  color: #6aa0f7;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+dl{
+  /* shortcut instead of writing all the attributes for fonts*/
+color: rgba(255, 0, 0, 0.5);
+  font:bold 20px Helvetica;
+}
