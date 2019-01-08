@@ -40,6 +40,11 @@
     </div>
 
 
+    <input type="text" id="input"/>
+    <button id="changer">Change</button>
+    <p id="new">
+      something new
+    </p>
 
     <script type="text/javascript">
 
@@ -47,6 +52,16 @@
         document.getElementById("red").style.display ="none";
         document.getElementById("red").innerHTML = " red";
       }
+
+      document.getElementById("changer").onclick =function(){
+        var text = "";
+        text = document.getElementById("input").value;
+        document.getElementById("new").innerHTML = text;
+      }
+
+      var x =5;
+
+
 
 
 
