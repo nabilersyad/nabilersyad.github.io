@@ -24,8 +24,15 @@ a:hover{
   text-align: center;
 }
 
+h5{
+  width: 70%;
+}
 
 
-.table{
+
+#table1{
+  border: 1px black solid
+}
+#table2{
   border: 5px black solid
 }

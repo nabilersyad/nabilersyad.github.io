@@ -46,6 +46,11 @@
       something new
     </p>
 
+    <div>
+      <input type="text" id="user" />
+      <button id="submit">submit</button>
+    </div>
+
     <script type="text/javascript">
 
       document.getElementById("red").onclick = function() {
@@ -59,8 +64,27 @@
         document.getElementById("new").innerHTML = text;
       }
 
-      var x =5;
+      var myArray = new Array();
+      myArray[0] = "cat";
+      myArray[1] = "dog";
+      console.log(myArray);
+      alert(myArray[1]);
 
+      myArray.push("meow");
+
+      myArray.splice(1,1); // for deleting or adding arrays anywhere in arrays //(position, how many elements)
+
+      document.getElementById("submit").onclick =function(){
+        var username = document.getElementById("user").value;
+
+
+        if(username== "nabil"){
+          alert("You are nabil");
+        }
+        else{
+          alert("who you");
+        }
+      }
 
 
 
