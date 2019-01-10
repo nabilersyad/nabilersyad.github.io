@@ -13,6 +13,12 @@
       float:left;
       margin:50px;
     }
+    .square{
+      height: 25px;
+      width: 25px;
+      float:left;
+      margin:50px;
+    }
 
       #red{
         background-color: red;
@@ -37,6 +43,12 @@
     <div class="circle" id="blue">
     </div>
     <div class="circle" id="yellow">
+    </div>
+    <div class="square" id="red">
+    </div>
+    <div class="square" id="blue">
+    </div>
+    <div class="square" id="yellow">
     </div>
 
 
@@ -74,7 +86,10 @@
 
       myArray.splice(1,1); // for deleting or adding arrays anywhere in arrays //(position, how many elements)
 
-      document.getElementById("submit").onclick =function(){
+      document.getElementById("submit").onclick = alertMePlis;
+
+
+      function alertMePlis(){
         var username = document.getElementById("user").value;
 
 
@@ -84,10 +99,8 @@
         else{
           alert("who you");
         }
+
       }
-
-
-
 
     </script>
   </body>
