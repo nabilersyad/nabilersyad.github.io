@@ -4,6 +4,7 @@ body {
   font-style: normal;
   font-weight: normal;
 
+
 }
 
 a{
@@ -28,11 +29,13 @@ h5{
   width: 70%;
 }
 
+.list{
 
+}
 
 #table1{
-  border: 1px black solid
+  border: 1px black solid;
 }
 #table2{
-  border: 5px black solid
+  border: 5px black solid;
 }
