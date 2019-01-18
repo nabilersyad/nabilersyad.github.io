@@ -38,6 +38,15 @@
         alert(data);
       });
 
+      $.ajax("random").done(function(data2){
+        alert(data2);
+      });
+
+
+      var regex = /something/;
+      var string = "is something fun or not.";
+      var result = string.match(regex);
+      alert(result);
     </script>
   </body>
 </html>
