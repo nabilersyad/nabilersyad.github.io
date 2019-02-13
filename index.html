@@ -216,8 +216,12 @@
                 </div>
             </div>
 
+            <!-- button to uncollapse set of pics-->
+            <div class="row justify-content-center no-gutters pt-5 pt-lg-6">
+                <a class="btn btn-primary text-white" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Montreal</a>
+            </div>
             <!-- Project One Row -->
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0 collapse multi-collapse" id="multiCollapseExample1">
                 <div class="col-lg-6">
                     <img class="img-fluid" src="img/montreal_summer.jpg" alt="">
                 </div>
@@ -237,7 +241,7 @@
 
 
             <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
+            <div class="row justify-content-center no-gutters collapse multi-collapse" id="multiCollapseExample1">
                 <div class="col-lg-6">
                     <img class="img-fluid" src="img/montreal_winter.jpg" alt="">
                 </div>
@@ -253,8 +257,6 @@
                     </div>
                 </div>
             </div>
-
-
 
         </div>
     </section>
